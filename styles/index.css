@@ -29,8 +29,22 @@
     border-radius: 41px;
     padding: 20px 24x;
     border-style: none;
+    cursor: pointer;
+    text-decoration: none;
+    transition: .3s ease;
+}
+.btn-primary:hover{
+    background: #ef2673;
+    transform: translateY(-2px);
 }
 
+.btn-primary i{
+    transition: transform .3s ease;
+}
+
+.btn-primary:hover i{
+    transform: translateX(4px);
+}
 
 
 
@@ -190,7 +204,53 @@ nav ul li a{
     padding: 20px 24x;
     border-style: none;
 }
- 
+
+
+.fitar-btn{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 14px 28px;
+    background: #E02C6D;
+    color: #fff;
+    border: none;
+    border-radius: 41px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+.fitar-btn:hover{
+    background: #ef2673;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(224, 44, 109, 0.2);
+}
+
+.fitar-btn i{
+    transition: transform .3s ease;
+}
+
+.fitar-btn:hover i{
+    transform: translateX(4px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer section */
 .footer-section{
     margin-top: 150px;
@@ -214,6 +274,10 @@ footer a{
     color: rgb(235, 237, 246);
    
 }
+.elon-musk{
+    padding-bottom: 40px;
+}
+
 
 
 @media screen and (max-width:576px){
@@ -251,16 +315,20 @@ footer a{
     }
     
     .fitar-img{
-        
-        padding-left: 10px;
-        padding-right: 10px;
+        display: flex;
+        justify-content: center;
+       
+        /* padding-left: 10px;
+        padding-right: 10px; */
     }
 
     img {
          max-width: 100%; height: auto; 
         } 
 
-
+    .see-more{
+        padding-right: 15px;
+    }
 
 
 
